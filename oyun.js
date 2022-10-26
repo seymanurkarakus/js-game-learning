@@ -71,7 +71,7 @@ var player = new function () {
         if (!playing || gnd && Math.abs(this.rot) > Math.PI * .5) {
             playing = false;
             this.rSpeed = 2;
-            this.x -= speed * 5;
+            this.x -= speed * 2;
 
             ctx.textAlign = "center";
             ctx.textBaseline = "middle";
